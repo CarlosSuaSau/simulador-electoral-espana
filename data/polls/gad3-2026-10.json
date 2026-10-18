@@ -1,0 +1,22 @@
+{
+  "id": "gad3-2026-10",
+  "institute": "GAD3",
+  "publisher": "ABC / Vocento",
+  "start": "2026-10-06",
+  "end": "2026-10-08",
+  "published": "2026-10-12",
+  "sample": 1077,
+  "source": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/",
+  "originalSource": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 31.4,
+    "PSOE": 26.4,
+    "VOX": 18.2,
+    "SUMAR": 7.4
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Texto y ficha del instituto. Desglose parcial: el 11,2 % agregado como otros no se convierte en una papeleta ni se atribuye a Podemos. Denominador válido asumido pendiente de tablas completas."
+}

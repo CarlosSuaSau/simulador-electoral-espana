@@ -1,0 +1,16 @@
+{
+  "iterations": 300,
+  "seed": 20261017,
+  "totalSeats": 105000,
+  "institutes": [
+    "GAD3",
+    "Sigma Dos",
+    "IMOP Insights",
+    "SocioMétrica",
+    "DYM",
+    "NC Report",
+    "InvyMark",
+    "40dB."
+  ],
+  "seconds": 16.43
+}

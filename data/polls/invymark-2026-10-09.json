@@ -1,0 +1,28 @@
+{
+  "id": "invymark-2026-10-09",
+  "institute": "InvyMark",
+  "publisher": "laSexta",
+  "start": null,
+  "end": null,
+  "published": "2026-10-09",
+  "sample": null,
+  "source": "https://stories.lasexta.com/newstory/stories/3d677c8a6c933038d4ce",
+  "originalSource": "https://stories.lasexta.com/newstory/stories/3d677c8a6c933038d4ce",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 32.8,
+    "PSOE": 28,
+    "VOX": 18.8,
+    "SUMAR": 6.3,
+    "PODEMOS": 3.2,
+    "ERC": 1.9,
+    "SALF": 1.8,
+    "BILDU": 1.5,
+    "JUNTS": 1.2,
+    "PNV": 1.1
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Publicación del medio fechado el 9 de octubre. No se publica la ficha completa en la pieza accesible: se usa fecha de publicación. Campo y muestra ausentes. Denominador válido asumido."
+}

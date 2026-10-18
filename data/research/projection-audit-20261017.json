@@ -1,0 +1,2521 @@
+{
+  "date": "2026-10-17",
+  "revision": 6,
+  "actual2023": {
+    "PP": 33.05576896257697,
+    "PSOE": 31.68215504101229,
+    "VOX": 12.382490388988018,
+    "SUMAR": 12.333867747630668
+  },
+  "meanSignedError2023": {
+    "PP": -1.6692310374230246,
+    "PSOE": 3.7446550410122903,
+    "VOX": -0.3425096110119803,
+    "SUMAR": -0.5286322523693325
+  },
+  "nationalBefore": {
+    "PP": 32.31921949396328,
+    "PSOE": 26.523206728748573,
+    "VOX": 18.60109595257571,
+    "SUMAR": 6.406293980487791,
+    "PODEMOS": 3.1528163695108478,
+    "ERC": 2.26212522138253,
+    "JUNTS": 1.7448370664522617,
+    "BILDU": 1.2953977616340702,
+    "PNV": 0.9305445730529227,
+    "BNG": 0.9,
+    "AA": 0.8494224030445084,
+    "CC": 0.5,
+    "UPN": 0.2,
+    "SALF": 1.8873602663853535
+  },
+  "nationalHalfError": {
+    "PP": 31.28723434665004,
+    "PSOE": 28.229629105288854,
+    "VOX": 18.269785664053423,
+    "SUMAR": 6.13644523339913,
+    "PODEMOS": 2.983227680804524,
+    "ERC": 2.26212522138253,
+    "JUNTS": 1.7448370664522617,
+    "BILDU": 1.2953977616340702,
+    "PNV": 0.9305445730529227,
+    "BNG": 0.9,
+    "AA": 0.8494224030445084,
+    "CC": 0.5,
+    "UPN": 0.2,
+    "SALF": 1.8873602663853535
+  },
+  "correctionDeltas": {
+    "PP": -1.0319851473132395,
+    "PSOE": 1.7064223765402815,
+    "VOX": -0.33131028852228894,
+    "SUMAR": -0.2698487470886608,
+    "PODEMOS": -0.1695886887063236,
+    "ERC": 0,
+    "JUNTS": 0,
+    "BILDU": 0,
+    "PNV": 0,
+    "BNG": 0,
+    "AA": 0,
+    "CC": 0,
+    "UPN": 0,
+    "SALF": 0
+  },
+  "seats": {
+    "historical-472705fed015": 0,
+    "PP": 138,
+    "VOX": 65,
+    "historical-ce431a299ce6": 0,
+    "historical-049dc0011f8c": 0,
+    "SUMAR": 0,
+    "historical-fe157416b630": 0,
+    "historical-758d3950e16c": 0,
+    "BILDU": 6,
+    "PNV": 3,
+    "PSOE": 106,
+    "historical-5aa916e5c7db": 0,
+    "historical-67ea9543fda1": 0,
+    "historical-8d7534d41fbb": 0,
+    "historical-c791948662ec": 0,
+    "historical-56e104775661": 0,
+    "historical-a7ee8c55aa37": 0,
+    "historical-9187b4510e3c": 0,
+    "historical-b35eeaf465ad": 0,
+    "historical-b8dd81e1c19d": 0,
+    "ERC": 9,
+    "historical-5034641059ff": 0,
+    "historical-8bddb826e85c": 0,
+    "historical-62f3165941d7": 0,
+    "JUNTS": 6,
+    "historical-51b252308cb0": 0,
+    "historical-8ec4c5244a53": 0,
+    "historical-1209923607dd": 0,
+    "historical-229890b3e227": 0,
+    "AA": 0,
+    "BNG": 2,
+    "historical-9365d9bcbb15": 0,
+    "historical-17ad3fe1661d": 0,
+    "historical-943fc6d56514": 0,
+    "historical-2602987594ed": 0,
+    "historical-ed6ef31d96b2": 0,
+    "historical-2f2b46fab9ea": 0,
+    "historical-d6996fe42ace": 0,
+    "historical-b3d096687113": 0,
+    "historical-e5e54a3b4379": 0,
+    "historical-eb365c709084": 0,
+    "historical-55e16577e8f3": 0,
+    "historical-d9ca90202132": 0,
+    "historical-d19f8682e183": 0,
+    "historical-cc4ef088be22": 0,
+    "historical-462cc0f8ad74": 0,
+    "historical-7048efb4303b": 0,
+    "historical-27cd3cd68bbb": 0,
+    "historical-15437f8eaa78": 0,
+    "UPN": 0,
+    "historical-993e7cfb3f29": 0,
+    "historical-35edbb718dd7": 0,
+    "historical-4d9bb02e7e5a": 0,
+    "historical-8c0b7b052bc8": 0,
+    "historical-a25b3a207955": 0,
+    "CC": 0,
+    "NC": 0,
+    "historical-25e44e9b3519": 0,
+    "historical-3ab100901c72": 0,
+    "historical-c54ac5617f79": 0,
+    "historical-d5eaa863aac3": 0,
+    "historical-9491b07cbc1d": 0,
+    "historical-7d7d54625ccb": 0,
+    "historical-e7b0bdb8fc2e": 0,
+    "historical-d98907b63047": 0,
+    "historical-d05eae7f5871": 0,
+    "historical-2fdfc8ad57eb": 0,
+    "PODEMOS": 1,
+    "SALF": 0,
+    "FA": 7,
+    "COMPROMIS": 3,
+    "UPN_PP": 2,
+    "UPC": 1,
+    "PC_CC": 1,
+    "DRAGO": 0
+  },
+  "seatsHalfError": {
+    "historical-472705fed015": 0,
+    "PP": 129,
+    "VOX": 65,
+    "historical-ce431a299ce6": 0,
+    "historical-049dc0011f8c": 0,
+    "SUMAR": 0,
+    "historical-fe157416b630": 0,
+    "historical-758d3950e16c": 0,
+    "BILDU": 6,
+    "PNV": 3,
+    "PSOE": 115,
+    "historical-5aa916e5c7db": 0,
+    "historical-67ea9543fda1": 0,
+    "historical-8d7534d41fbb": 0,
+    "historical-c791948662ec": 0,
+    "historical-56e104775661": 0,
+    "historical-a7ee8c55aa37": 0,
+    "historical-9187b4510e3c": 0,
+    "historical-b35eeaf465ad": 0,
+    "historical-b8dd81e1c19d": 0,
+    "ERC": 9,
+    "historical-5034641059ff": 0,
+    "historical-8bddb826e85c": 0,
+    "historical-62f3165941d7": 0,
+    "JUNTS": 7,
+    "historical-51b252308cb0": 0,
+    "historical-8ec4c5244a53": 0,
+    "historical-1209923607dd": 0,
+    "historical-229890b3e227": 0,
+    "AA": 0,
+    "BNG": 2,
+    "historical-9365d9bcbb15": 0,
+    "historical-17ad3fe1661d": 0,
+    "historical-943fc6d56514": 0,
+    "historical-2602987594ed": 0,
+    "historical-ed6ef31d96b2": 0,
+    "historical-2f2b46fab9ea": 0,
+    "historical-d6996fe42ace": 0,
+    "historical-b3d096687113": 0,
+    "historical-e5e54a3b4379": 0,
+    "historical-eb365c709084": 0,
+    "historical-55e16577e8f3": 0,
+    "historical-d9ca90202132": 0,
+    "historical-d19f8682e183": 0,
+    "historical-cc4ef088be22": 0,
+    "historical-462cc0f8ad74": 0,
+    "historical-7048efb4303b": 0,
+    "historical-27cd3cd68bbb": 0,
+    "historical-15437f8eaa78": 0,
+    "UPN": 0,
+    "historical-993e7cfb3f29": 0,
+    "historical-35edbb718dd7": 0,
+    "historical-4d9bb02e7e5a": 0,
+    "historical-8c0b7b052bc8": 0,
+    "historical-a25b3a207955": 0,
+    "CC": 0,
+    "NC": 0,
+    "historical-25e44e9b3519": 0,
+    "historical-3ab100901c72": 0,
+    "historical-c54ac5617f79": 0,
+    "historical-d5eaa863aac3": 0,
+    "historical-9491b07cbc1d": 0,
+    "historical-7d7d54625ccb": 0,
+    "historical-e7b0bdb8fc2e": 0,
+    "historical-d98907b63047": 0,
+    "historical-d05eae7f5871": 0,
+    "historical-2fdfc8ad57eb": 0,
+    "PODEMOS": 1,
+    "SALF": 0,
+    "FA": 6,
+    "COMPROMIS": 3,
+    "UPN_PP": 2,
+    "UPC": 1,
+    "PC_CC": 1,
+    "DRAGO": 0
+  },
+  "checks": {
+    "provinces": 52,
+    "seats": 350,
+    "conservesElectors": true,
+    "integerNonnegativeVotes": true,
+    "maxFittingError": 0.026621514931321144,
+    "regionalElectionReferencesLoaded": 0
+  },
+  "knownCauses": {
+    "Tenerife": "Zero ballot availability was averaged as electoral rejection. Imputed from both 2019 general elections, never diluted by the 2023 absence. Other counterfactual 2023 votes scaled to conserve total.",
+    "Cadiz": "National AA target was concentrated in its only 2023 province. Replaced with an explicit Sumar geographical proxy restricted to the eight Andalusian provinces.",
+    "LasPalmasAndCeuta": "The shipped 70/20/10 blend changed leaders; default restored to 2023 with only documented missing-ballot repair."
+  },
+  "provinces": [
+    {
+      "code": "1",
+      "name": "Araba/Álava",
+      "winner": "PSOE",
+      "leadPoints": 6.258342960785839,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 27.32660110022328,
+          "seats": 2
+        },
+        {
+          "party": "PP",
+          "share": 21.068258139437436,
+          "seats": 1
+        },
+        {
+          "party": "BILDU",
+          "share": 17.753820552266593,
+          "seats": 1
+        },
+        {
+          "party": "PNV",
+          "share": 12.902183087209755,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 7.567476968938745,
+          "seats": 0
+        },
+        {
+          "party": "VOX",
+          "share": 6.991625612814787,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.839408106215244,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "2",
+      "name": "Albacete",
+      "winner": "PP",
+      "leadPoints": 10.622951150891264,
+      "top": [
+        {
+          "party": "PP",
+          "share": 38.50750339685923,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 27.884552245967967,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 24.445263843779834,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 3.4751511539219204,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.480086070604161,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.7633361451077652,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.3783267753324881,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "3",
+      "name": "Alicante/Alacant",
+      "winner": "PP",
+      "leadPoints": 9.700522930558687,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.90384186331743,
+          "seats": 5
+        },
+        {
+          "party": "PSOE",
+          "share": 26.20331893275874,
+          "seats": 3
+        },
+        {
+          "party": "VOX",
+          "share": 24.228877268209807,
+          "seats": 3
+        },
+        {
+          "party": "COMPROMIS",
+          "share": 9.452479893481085,
+          "seats": 1
+        },
+        {
+          "party": "SALF",
+          "share": 2.4583582390495384,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.5483433373779023,
+          "seats": 0
+        },
+        {
+          "party": "historical-472705fed015",
+          "share": 0.12610942289130608,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "4",
+      "name": "Almería",
+      "winner": "PP",
+      "leadPoints": 7.66318974584623,
+      "top": [
+        {
+          "party": "PP",
+          "share": 36.98384904477603,
+          "seats": 3
+        },
+        {
+          "party": "VOX",
+          "share": 29.3206592989298,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 21.97482271320376,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 3.040623012775499,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.9749221686100653,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 2.562634302471015,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.5427643178112578,
+          "seats": 0
+        }
+      ],
+      "aaShare": 2.562634302471015
+    },
+    {
+      "code": "5",
+      "name": "Ávila",
+      "winner": "PP",
+      "leadPoints": 19.23440184799554,
+      "top": [
+        {
+          "party": "PP",
+          "share": 42.036208878116504,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 22.801807030120962,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 22.298842726931348,
+          "seats": 1
+        },
+        {
+          "party": "historical-b35eeaf465ad",
+          "share": 5.505297056179519,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 2.5102698027970276,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.3134082090146677,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.2733417540026628,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "6",
+      "name": "Badajoz",
+      "winner": "PP",
+      "leadPoints": 4.9409325371043105,
+      "top": [
+        {
+          "party": "PP",
+          "share": 37.52831904904492,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 32.58738651194061,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 20.678979214806695,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 3.4157999107349677,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.0982932299817514,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.7330410562652188,
+          "seats": 0
+        },
+        {
+          "party": "historical-b8dd81e1c19d",
+          "share": 0.7158151648860741,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "7",
+      "name": "Balears, Illes",
+      "winner": "PP",
+      "leadPoints": 10.273112482187909,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.3258437950002,
+          "seats": 4
+        },
+        {
+          "party": "PSOE",
+          "share": 25.0527313128123,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 23.00250779220291,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 8.278534125900944,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 4.200269954243132,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.333901064401758,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.6733816844693594,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "8",
+      "name": "Barcelona",
+      "winner": "PSOE",
+      "leadPoints": 13.740673513992762,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 31.764528145421504,
+          "seats": 11
+        },
+        {
+          "party": "ERC",
+          "share": 18.02385463142874,
+          "seats": 6
+        },
+        {
+          "party": "PP",
+          "share": 14.632171258139195,
+          "seats": 5
+        },
+        {
+          "party": "VOX",
+          "share": 12.252883500620111,
+          "seats": 4
+        },
+        {
+          "party": "JUNTS",
+          "share": 9.965454600257749,
+          "seats": 3
+        },
+        {
+          "party": "FA",
+          "share": 8.135298282140123,
+          "seats": 3
+        },
+        {
+          "party": "historical-5034641059ff",
+          "share": 1.6037990382572473,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "9",
+      "name": "Burgos",
+      "winner": "PP",
+      "leadPoints": 11.77406314640011,
+      "top": [
+        {
+          "party": "PP",
+          "share": 40.602064280389335,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.828001133989225,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 19.45054021986791,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 4.345908713867218,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.204979052698999,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.9734562521656045,
+          "seats": 0
+        },
+        {
+          "party": "historical-8ec4c5244a53",
+          "share": 0.612144184630246,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "10",
+      "name": "Cáceres",
+      "winner": "PP",
+      "leadPoints": 5.390692303462433,
+      "top": [
+        {
+          "party": "PP",
+          "share": 37.69956192605898,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 32.30886962259655,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 20.57756108290412,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 3.461975548508899,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.0877247649247574,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.7564198911230455,
+          "seats": 0
+        },
+        {
+          "party": "historical-b8dd81e1c19d",
+          "share": 0.5874589878475722,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "11",
+      "name": "Cádiz",
+      "winner": "PP",
+      "leadPoints": 6.683307637716271,
+      "top": [
+        {
+          "party": "PP",
+          "share": 33.09671952622177,
+          "seats": 4
+        },
+        {
+          "party": "PSOE",
+          "share": 26.413411888505493,
+          "seats": 3
+        },
+        {
+          "party": "VOX",
+          "share": 22.022673323055088,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 6.169548246580035,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 5.199844602696817,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.130276778503781,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.2346009837750533,
+          "seats": 0
+        }
+      ],
+      "aaShare": 5.199844602696817
+    },
+    {
+      "code": "12",
+      "name": "Castellón/Castelló",
+      "winner": "PP",
+      "leadPoints": 7.701577444604879,
+      "top": [
+        {
+          "party": "PP",
+          "share": 34.63683309630048,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 26.9352556516956,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 23.859980530736465,
+          "seats": 1
+        },
+        {
+          "party": "COMPROMIS",
+          "share": 10.612919919083135,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.4209920639228755,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.4328111372872585,
+          "seats": 0
+        },
+        {
+          "party": "historical-472705fed015",
+          "share": 0.15524747315738618,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "13",
+      "name": "Ciudad Real",
+      "winner": "PP",
+      "leadPoints": 10.524684736227323,
+      "top": [
+        {
+          "party": "PP",
+          "share": 39.136808982335694,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.61212424610837,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 23.962033262612536,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 2.9885495879917676,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.43112668557852,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.5165240331513663,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.3095028089664434,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "14",
+      "name": "Córdoba",
+      "winner": "PP",
+      "leadPoints": 10.338819861537756,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.66669642792507,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 25.327876566387314,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 20.011389714026482,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 6.504926292623954,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 5.482265105246267,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.300362685173343,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.03036130972059,
+          "seats": 0
+        }
+      ],
+      "aaShare": 5.482265105246267
+    },
+    {
+      "code": "15",
+      "name": "A Coruña",
+      "winner": "PP",
+      "leadPoints": 19.73331153474938,
+      "top": [
+        {
+          "party": "PP",
+          "share": 43.57881120275121,
+          "seats": 5
+        },
+        {
+          "party": "PSOE",
+          "share": 23.84549966800183,
+          "seats": 2
+        },
+        {
+          "party": "BNG",
+          "share": 13.335283732950137,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 7.825548227215819,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 6.199976193651736,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.1455930290423106,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 0.7940707851649164,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "16",
+      "name": "Cuenca",
+      "winner": "PP",
+      "leadPoints": 8.224089635854341,
+      "top": [
+        {
+          "party": "PP",
+          "share": 38.65953654188948,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 30.435446906035143,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 23.061879297173416,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 2.7186147186147185,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.3396995161701044,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.3801884390119685,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.22714540361599186,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "17",
+      "name": "Girona",
+      "winner": "PSOE",
+      "leadPoints": 5.562875378586951,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 25.676608317220218,
+          "seats": 2
+        },
+        {
+          "party": "JUNTS",
+          "share": 20.113732938633266,
+          "seats": 1
+        },
+        {
+          "party": "ERC",
+          "share": 19.572731472767405,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 11.358749279900527,
+          "seats": 1
+        },
+        {
+          "party": "PP",
+          "share": 10.279313039361636,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 5.834089081295666,
+          "seats": 0
+        },
+        {
+          "party": "historical-5034641059ff",
+          "share": 3.5805342139936003,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "18",
+      "name": "Granada",
+      "winner": "PP",
+      "leadPoints": 8.714705493589287,
+      "top": [
+        {
+          "party": "PP",
+          "share": 34.45516568209779,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 25.740460188508504,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 22.9089688971134,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 5.460646053420911,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 4.602088438348365,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.7704853026405427,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.324531524844689,
+          "seats": 0
+        }
+      ],
+      "aaShare": 4.602088438348365
+    },
+    {
+      "code": "19",
+      "name": "Guadalajara",
+      "winner": "PP",
+      "leadPoints": 6.631802633761761,
+      "top": [
+        {
+          "party": "PP",
+          "share": 34.56753063110746,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 27.935727997345698,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 26.29100934535142,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 4.385916405318081,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.834414276347492,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.225346994557103,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.4826719963345367,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "20",
+      "name": "Gipuzkoa",
+      "winner": "BILDU",
+      "leadPoints": 5.662227892512559,
+      "top": [
+        {
+          "party": "BILDU",
+          "share": 30.039337639210057,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 24.3771097466975,
+          "seats": 2
+        },
+        {
+          "party": "PNV",
+          "share": 18.589160885628473,
+          "seats": 1
+        },
+        {
+          "party": "PP",
+          "share": 10.855327857959226,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 6.692448768040826,
+          "seats": 0
+        },
+        {
+          "party": "VOX",
+          "share": 3.9858597134731415,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.395529330462749,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "21",
+      "name": "Huelva",
+      "winner": "PP",
+      "leadPoints": 5.990781628218117,
+      "top": [
+        {
+          "party": "PP",
+          "share": 34.56154732535748,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.570765697139365,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 21.168227551485998,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 4.973435312860093,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 4.191575088742296,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.5234519399568467,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.147988894646075,
+          "seats": 0
+        }
+      ],
+      "aaShare": 4.191575088742296
+    },
+    {
+      "code": "22",
+      "name": "Huesca",
+      "winner": "PP",
+      "leadPoints": 10.097327970119236,
+      "top": [
+        {
+          "party": "PP",
+          "share": 38.4741775606953,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 28.376849590576068,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 19.425190346214624,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 5.825312455107025,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.9557534836948713,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.9708016089642293,
+          "seats": 0
+        },
+        {
+          "party": "historical-ed6ef31d96b2",
+          "share": 0.7955035196092516,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "23",
+      "name": "Jaén",
+      "winner": "PP",
+      "leadPoints": 6.5880898141228235,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.54056852663899,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.95247871251617,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 21.428549989945285,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 3.829195892873758,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 3.2274136570051355,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.1742197090435416,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.9428111784426896,
+          "seats": 0
+        }
+      ],
+      "aaShare": 3.2274136570051355
+    },
+    {
+      "code": "24",
+      "name": "León",
+      "winner": "PP",
+      "leadPoints": 8.84726585202569,
+      "top": [
+        {
+          "party": "PP",
+          "share": 37.382015611091084,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.534749759065395,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 19.893841637913912,
+          "seats": 1
+        },
+        {
+          "party": "historical-eb365c709084",
+          "share": 5.480434638671659,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 3.440031192755041,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.0187009394610422,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.7453964937577706,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "25",
+      "name": "Lleida",
+      "winner": "PSOE",
+      "leadPoints": 2.9276648375919034,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 25.672160435051484,
+          "seats": 1
+        },
+        {
+          "party": "ERC",
+          "share": 22.744495597459583,
+          "seats": 1
+        },
+        {
+          "party": "JUNTS",
+          "share": 18.143669078165953,
+          "seats": 1
+        },
+        {
+          "party": "PP",
+          "share": 13.34651968627605,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 10.788432656346627,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 4.1271975891551245,
+          "seats": 0
+        },
+        {
+          "party": "historical-5034641059ff",
+          "share": 1.8375820875011044,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "26",
+      "name": "La Rioja",
+      "winner": "PP",
+      "leadPoints": 15.955372349616173,
+      "top": [
+        {
+          "party": "PP",
+          "share": 46.24318120109594,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 30.28780885147977,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 15.09145212647792,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 3.3489250364080667,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.6988374102140054,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.5309900525757165,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.28817910300397404,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "27",
+      "name": "Lugo",
+      "winner": "PP",
+      "leadPoints": 24.97766726527605,
+      "top": [
+        {
+          "party": "PP",
+          "share": 50.479347976239815,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 25.50168071096376,
+          "seats": 1
+        },
+        {
+          "party": "BNG",
+          "share": 11.502509554726712,
+          "seats": 0
+        },
+        {
+          "party": "VOX",
+          "share": 6.669889947967031,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 2.6196067596813557,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.328912833264263,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 0.6768890730763918,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "28",
+      "name": "Madrid",
+      "winner": "PP",
+      "leadPoints": 17.073553237531478,
+      "top": [
+        {
+          "party": "PP",
+          "share": 40.19122207891101,
+          "seats": 16
+        },
+        {
+          "party": "PSOE",
+          "share": 23.117668841379533,
+          "seats": 9
+        },
+        {
+          "party": "VOX",
+          "share": 21.206342505052167,
+          "seats": 8
+        },
+        {
+          "party": "FA",
+          "share": 7.711226515396812,
+          "seats": 3
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.9123961018555127,
+          "seats": 1
+        },
+        {
+          "party": "SALF",
+          "share": 2.151695614140225,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.41076253292331616,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "29",
+      "name": "Málaga",
+      "winner": "PP",
+      "leadPoints": 11.948038250597666,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.50384715832613,
+          "seats": 5
+        },
+        {
+          "party": "PSOE",
+          "share": 23.55580890772847,
+          "seats": 3
+        },
+        {
+          "party": "VOX",
+          "share": 23.267272033268377,
+          "seats": 3
+        },
+        {
+          "party": "FA",
+          "share": 5.718755650199892,
+          "seats": 0
+        },
+        {
+          "party": "AA",
+          "share": 4.819871627458465,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.9015659842899333,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.360779074673042,
+          "seats": 0
+        }
+      ],
+      "aaShare": 4.819871627458465
+    },
+    {
+      "code": "30",
+      "name": "Murcia",
+      "winner": "PP",
+      "leadPoints": 7.314139518824485,
+      "top": [
+        {
+          "party": "PP",
+          "share": 38.071788602009946,
+          "seats": 4
+        },
+        {
+          "party": "VOX",
+          "share": 30.75764908318546,
+          "seats": 4
+        },
+        {
+          "party": "PSOE",
+          "share": 19.595407295460785,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 4.453604571195694,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 3.1207636772201517,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.259560823335965,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.43045992137950945,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "31",
+      "name": "Navarra",
+      "winner": "UPN_PP",
+      "leadPoints": 7.092038701881893,
+      "top": [
+        {
+          "party": "UPN_PP",
+          "share": 33.17012176244451,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 26.078083060562616,
+          "seats": 2
+        },
+        {
+          "party": "BILDU",
+          "share": 15.139601499262092,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 9.891883605803478,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 7.355341346630718,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.7319242433806137,
+          "seats": 0
+        },
+        {
+          "party": "historical-15437f8eaa78",
+          "share": 1.9627468838011763,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "32",
+      "name": "Ourense",
+      "winner": "PP",
+      "leadPoints": 24.895951735595,
+      "top": [
+        {
+          "party": "PP",
+          "share": 50.17181078954271,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 25.275859053947713,
+          "seats": 1
+        },
+        {
+          "party": "BNG",
+          "share": 10.90233452828539,
+          "seats": 0
+        },
+        {
+          "party": "VOX",
+          "share": 7.4569380082189385,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 2.7564046515694676,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.3985310833260471,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 0.7567543936346944,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "33",
+      "name": "Asturias",
+      "winner": "PP",
+      "leadPoints": 6.973174724860644,
+      "top": [
+        {
+          "party": "PP",
+          "share": 36.16490820025727,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 29.191733475396628,
+          "seats": 3
+        },
+        {
+          "party": "VOX",
+          "share": 19.32829614999805,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 7.580462831823911,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.8459414508647236,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.96122061823521,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.3701550135783059,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "34",
+      "name": "Palencia",
+      "winner": "PP",
+      "leadPoints": 12.861485608380702,
+      "top": [
+        {
+          "party": "PP",
+          "share": 41.72269999660975,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 28.861214388229044,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 19.54706234673236,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 3.0308851947699713,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.9832973589937732,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.538044276689758,
+          "seats": 0
+        },
+        {
+          "party": "historical-8c0b7b052bc8",
+          "share": 1.4239057962006576,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "35",
+      "name": "Las Palmas",
+      "winner": "PSOE",
+      "leadPoints": 1.984838257978654,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 28.324938098518356,
+          "seats": 3
+        },
+        {
+          "party": "PP",
+          "share": 26.3400998405397,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 22.704613243707044,
+          "seats": 2
+        },
+        {
+          "party": "UPC",
+          "share": 10.766953718340016,
+          "seats": 1
+        },
+        {
+          "party": "PC_CC",
+          "share": 7.973188459863374,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.303758855772584,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.47265490119187464,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "36",
+      "name": "Pontevedra",
+      "winner": "PP",
+      "leadPoints": 13.744466990299575,
+      "top": [
+        {
+          "party": "PP",
+          "share": 40.59384070069093,
+          "seats": 4
+        },
+        {
+          "party": "PSOE",
+          "share": 26.849373710391355,
+          "seats": 2
+        },
+        {
+          "party": "BNG",
+          "share": 12.688464798499988,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 7.489790152312948,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 6.7858457692274765,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.4430089298709747,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 0.759938013167921,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "37",
+      "name": "Salamanca",
+      "winner": "PP",
+      "leadPoints": 20.65885153844163,
+      "top": [
+        {
+          "party": "PP",
+          "share": 45.41365835985819,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 24.754806821416558,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 21.676888440338484,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 2.697513133038325,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.1996221825427633,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.3684237766218978,
+          "seats": 0
+        },
+        {
+          "party": "historical-b3d096687113",
+          "share": 0.3721243174701757,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "38",
+      "name": "Santa Cruz de Tenerife",
+      "winner": "PP",
+      "leadPoints": 6.887002033619435,
+      "top": [
+        {
+          "party": "PP",
+          "share": 33.39231479790575,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 26.50531276428631,
+          "seats": 2
+        },
+        {
+          "party": "PC_CC",
+          "share": 14.925206420351087,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 13.851661025603747,
+          "seats": 1
+        },
+        {
+          "party": "UPC",
+          "share": 7.910903710690597,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.4054491072109272,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.8077742061880894,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "39",
+      "name": "Cantabria",
+      "winner": "PP",
+      "leadPoints": 13.951286474627478,
+      "top": [
+        {
+          "party": "PP",
+          "share": 41.3997554824931,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 27.44846900786562,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 21.10572164837892,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 4.202453141804833,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.1415198693455326,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.1320210689520986,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.40385222317891145,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "40",
+      "name": "Segovia",
+      "winner": "PP",
+      "leadPoints": 18.980136763269293,
+      "top": [
+        {
+          "party": "PP",
+          "share": 44.07294041028981,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 25.092803647020514,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 21.079778573754478,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 3.968739824161511,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.138717030283295,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.013676326929339,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.23314881146206448,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "41",
+      "name": "Sevilla",
+      "winner": "PP",
+      "leadPoints": 2.5906142503696254,
+      "top": [
+        {
+          "party": "PP",
+          "share": 31.797848456035723,
+          "seats": 4
+        },
+        {
+          "party": "PSOE",
+          "share": 29.207234205666097,
+          "seats": 4
+        },
+        {
+          "party": "VOX",
+          "share": 19.348065253212134,
+          "seats": 3
+        },
+        {
+          "party": "FA",
+          "share": 6.7310171794961144,
+          "seats": 1
+        },
+        {
+          "party": "AA",
+          "share": 5.672867746255208,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.415090676476884,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.963171859676721,
+          "seats": 0
+        }
+      ],
+      "aaShare": 5.672867746255208
+    },
+    {
+      "code": "42",
+      "name": "Soria",
+      "winner": "PP",
+      "leadPoints": 13.271085573568644,
+      "top": [
+        {
+          "party": "PP",
+          "share": 39.44387441001437,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 26.172788836445722,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 15.850605376564744,
+          "seats": 0
+        },
+        {
+          "party": "historical-3ab100901c72",
+          "share": 13.076133798481429,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 1.7976605786989535,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.6088651754565977,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 0.9111430330391955,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "43",
+      "name": "Tarragona",
+      "winner": "PSOE",
+      "leadPoints": 8.819420325430421,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 28.210759415990537,
+          "seats": 2
+        },
+        {
+          "party": "ERC",
+          "share": 19.391339090560116,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 16.1297230107145,
+          "seats": 1
+        },
+        {
+          "party": "PP",
+          "share": 14.195472385941365,
+          "seats": 1
+        },
+        {
+          "party": "JUNTS",
+          "share": 10.995223782377872,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 5.837483254513121,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 1.636553080255602,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "44",
+      "name": "Teruel",
+      "winner": "PP",
+      "leadPoints": 10.668480088916187,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.60596089442665,
+          "seats": 1
+        },
+        {
+          "party": "PSOE",
+          "share": 24.937480805510464,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 20.288392635165767,
+          "seats": 1
+        },
+        {
+          "party": "historical-9491b07cbc1d",
+          "share": 10.905394931192324,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 2.7800933034996125,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.0591117155851943,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.4112519925708185,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "45",
+      "name": "Toledo",
+      "winner": "PP",
+      "leadPoints": 7.447522367515485,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.72522367515485,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 28.277701307639365,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 25.749885294792385,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 3.9114475797201194,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.869350768524891,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.984400091764166,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.33924065152557925,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "46",
+      "name": "Valencia/València",
+      "winner": "PP",
+      "leadPoints": 6.70972312931062,
+      "top": [
+        {
+          "party": "PP",
+          "share": 33.45435648222926,
+          "seats": 6
+        },
+        {
+          "party": "PSOE",
+          "share": 26.74463335291864,
+          "seats": 4
+        },
+        {
+          "party": "VOX",
+          "share": 23.077499291885832,
+          "seats": 4
+        },
+        {
+          "party": "COMPROMIS",
+          "share": 12.619413798511673,
+          "seats": 2
+        },
+        {
+          "party": "SALF",
+          "share": 2.341575548174002,
+          "seats": 0
+        },
+        {
+          "party": "historical-ce431a299ce6",
+          "share": 0.4918174774281293,
+          "seats": 0
+        },
+        {
+          "party": "historical-472705fed015",
+          "share": 0.13592670881799165,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "47",
+      "name": "Valladolid",
+      "winner": "PP",
+      "leadPoints": 13.080946540653633,
+      "top": [
+        {
+          "party": "PP",
+          "share": 39.86761416925186,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 26.786667628598224,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 22.57196450472549,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 4.357189235985859,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.290238799509415,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 2.2105187215929587,
+          "seats": 0
+        },
+        {
+          "party": "historical-b3d096687113",
+          "share": 0.2723468725200202,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "48",
+      "name": "Bizkaia",
+      "winner": "PSOE",
+      "leadPoints": 4.806642698959767,
+      "top": [
+        {
+          "party": "PSOE",
+          "share": 26.750305926805463,
+          "seats": 3
+        },
+        {
+          "party": "PNV",
+          "share": 21.943663227845697,
+          "seats": 2
+        },
+        {
+          "party": "BILDU",
+          "share": 19.700860558479498,
+          "seats": 2
+        },
+        {
+          "party": "PP",
+          "share": 14.304328224369444,
+          "seats": 1
+        },
+        {
+          "party": "FA",
+          "share": 6.797107360904453,
+          "seats": 0
+        },
+        {
+          "party": "VOX",
+          "share": 4.9706293752487465,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.4486744823189994,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "49",
+      "name": "Zamora",
+      "winner": "PP",
+      "leadPoints": 17.240622525024094,
+      "top": [
+        {
+          "party": "PP",
+          "share": 44.13400891229878,
+          "seats": 2
+        },
+        {
+          "party": "PSOE",
+          "share": 26.89338638727469,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 19.893319592744206,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 2.807278695407399,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.0181490281395815,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 1.4246319144266644,
+          "seats": 0
+        },
+        {
+          "party": "historical-d05eae7f5871",
+          "share": 1.1555453773413868,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "50",
+      "name": "Zaragoza",
+      "winner": "PP",
+      "leadPoints": 10.084967237744138,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.63826429482243,
+          "seats": 3
+        },
+        {
+          "party": "PSOE",
+          "share": 25.55329705707829,
+          "seats": 2
+        },
+        {
+          "party": "VOX",
+          "share": 23.10065187841142,
+          "seats": 2
+        },
+        {
+          "party": "FA",
+          "share": 6.715105146430661,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 3.407106274277105,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.343858497355032,
+          "seats": 0
+        },
+        {
+          "party": "historical-ed6ef31d96b2",
+          "share": 1.070822864982472,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "51",
+      "name": "Ceuta",
+      "winner": "PP",
+      "leadPoints": 3.0005401954525364,
+      "top": [
+        {
+          "party": "PP",
+          "share": 35.42454451701616,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 32.42400432156362,
+          "seats": 0
+        },
+        {
+          "party": "PSOE",
+          "share": 26.03496537838236,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 3.290281392722094,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 1.1344104503265726,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 0.5745715267887835,
+          "seats": 0
+        },
+        {
+          "party": "historical-472705fed015",
+          "share": 0.09821735500662968,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    },
+    {
+      "code": "52",
+      "name": "Melilla",
+      "winner": "PP",
+      "leadPoints": 24.102055352055352,
+      "top": [
+        {
+          "party": "PP",
+          "share": 47.67501017501017,
+          "seats": 1
+        },
+        {
+          "party": "VOX",
+          "share": 23.572954822954824,
+          "seats": 0
+        },
+        {
+          "party": "PSOE",
+          "share": 20.622201872201874,
+          "seats": 0
+        },
+        {
+          "party": "SALF",
+          "share": 2.391127391127391,
+          "seats": 0
+        },
+        {
+          "party": "historical-2fdfc8ad57eb",
+          "share": 2.16982091982092,
+          "seats": 0
+        },
+        {
+          "party": "FA",
+          "share": 1.4753764753764753,
+          "seats": 0
+        },
+        {
+          "party": "PODEMOS",
+          "share": 0.7478632478632479,
+          "seats": 0
+        }
+      ],
+      "aaShare": 0
+    }
+  ]
+}

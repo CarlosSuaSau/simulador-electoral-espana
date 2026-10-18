@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+const bundled=await build({stdin:{contents:"export {project,historical,provinces,aggregate} from './src/model/projection';export {defaultConfig} from './src/model/defaults';export {actual2023,correctedShares,errorCatalog,meanError2023} from './src/model/pollCorrection';",resolveDir:process.cwd()},bundle:true,write:false,format:'esm',platform:'node'});
+const m=await import('data:text/javascript;base64,'+Buffer.from(bundled.outputFiles[0].text).toString('base64'));
+const c=m.defaultConfig(),forecast=m.project(c),corrected=m.project({...c,halfError2023:true});
+const names=Object.fromEntries(m.provinces.map(p=>[p.code,p.name]));
+const audit=f=>f.provinces.map(p=>{
+  const census=m.provinces.find(x=>x.code===p.code).census;
+  assert.equal(Object.values(p.votes).reduce((s,n)=>s+n,p.blank+p.invalid+p.abstention),census);
+  assert.equal(Object.values(p.allocation).reduce((s,n)=>s+n,0),p.seats);
+  assert.ok(Object.values(p.votes).every(n=>Number.isInteger(n)&&n>=0));
+  const sorted=Object.entries(p.votes).sort((a,b)=>b[1]-a[1]);
+  const share=(k,n)=>({party:k,share:100*n/p.valid,seats:p.allocation[k]??0});
+  return {code:p.code,name:names[p.code],winner:sorted[0][0],leadPoints:100*(sorted[0][1]-sorted[1][1])/p.valid,top:sorted.slice(0,7).map(([k,n])=>share(k,n)),aaShare:100*(p.votes.AA??0)/p.valid};
+});
+const rows=audit(forecast);audit(corrected);
+assert.equal(rows.find(p=>p.code==='35').winner,'PSOE');
+assert.equal(rows.find(p=>p.code==='11').winner,'PP');
+assert.equal(rows.find(p=>p.code==='51').winner,'PP');
+const before=m.aggregate(c).shares,after=m.aggregate({...c,halfError2023:true}).shares;
+const deltas=Object.fromEntries(Object.keys(before).map(k=>[k,(after[k]??before[k])-before[k]]));
+const report={date:'2026-10-17',revision:6,actual2023:m.actual2023,meanSignedError2023:m.meanError2023,nationalBefore:before,nationalHalfError:after,correctionDeltas:deltas,seats:forecast.allocation,seatsHalfError:corrected.allocation,checks:{provinces:52,seats:350,conservesElectors:true,integerNonnegativeVotes:true,maxFittingError:forecast.fittingError,regionalElectionReferencesLoaded:c.territorialReferences?.filter(r=>r.kind==='regional-election').length??0},knownCauses:{Tenerife:'Zero ballot availability was averaged as electoral rejection. Imputed from both 2019 general elections, never diluted by the 2023 absence. Other counterfactual 2023 votes scaled to conserve total.',Cadiz:'National AA target was concentrated in its only 2023 province. Replaced with an explicit Sumar geographical proxy restricted to the eight Andalusian provinces.',LasPalmasAndCeuta:'The shipped 70/20/10 blend changed leaders; default restored to 2023 with only documented missing-ballot repair.'},provinces:rows};
+fs.writeFileSync('data/research/projection-audit-20261017.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({checks:report.checks,examples:rows.filter(p=>['35','38','11','51'].includes(p.code)),actual2023:m.actual2023,correctionDeltas:deltas},null,2));

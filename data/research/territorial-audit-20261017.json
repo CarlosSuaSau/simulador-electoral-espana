@@ -1,0 +1,29 @@
+{
+  "checked": "2026-10-17",
+  "historical": {
+    "dates": ["2019-04-28", "2019-11-10", "2023-07-23"],
+    "source": "https://descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx",
+    "normalized": "src/data/reference-elections.json",
+    "limitations": "2019 joint CC-NC and Navarra Suma ballots excluded from individual-party profiles. Unidas Podemos and Mas Pais used only as geographical proxies for Sumar."
+  },
+  "coalitionReview": [
+    "https://www.rtve.es/noticias/20261014/upn-pp-sellan-acuerdo-para-concurrir-coalicion-a-elecciones-generales-del-29-n/17266826.shtml",
+    "https://www.rtve.es/noticias/20261016/elecciones-29n-coaliciones-plazo/17269290.shtml",
+    "https://efe.com/canarias/2026-10-15/las-izquierdas-canarias-salvo-drago-iran-con-la-marca-unidad-del-pueblo-canario-el-29n/",
+    "https://coalicioncanaria.org/coalicion-canaria-primero-canarias-y-una-veintena-de-fuerzas-sellan-la-unidad-para-defender-canarias-en-madrid/",
+    "https://cadenaser.com/nacional/2026/10/16/mapa-de-la-situacion-de-las-izquierdas-de-cara-al-29-n-canarias-la-unica-que-logra-aglutinar-al-progresismo-en-una-sola-papeleta-cadena-ser/"
+  ],
+  "territorialPolling": {
+    "source": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/",
+    "published": "2026-10-13",
+    "field": ["2026-10-01", "2026-10-08"],
+    "sample": 2017,
+    "usedAs": "Regional seat benchmark, not a provincial vote percentage prior. Published before coalition agreements."
+  },
+  "outstanding": [
+    "Collect and verify provincial polling vote percentages from original publishers.",
+    "Load regional election results with explicit party mappings and comparable reference shares; none loaded yet.",
+    "Replace illustrative Canary retention scenarios with observed transition evidence and retrospective calibration.",
+    "Verify registered candidate lists after publication; coalition announcements do not certify final lists."
+  ]
+}

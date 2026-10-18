@@ -1,0 +1,367 @@
+{
+  "iterations": 1000,
+  "seed": 20261018,
+  "totalSeats": 350000,
+  "counts": {
+    "consolidated": 279,
+    "swing": 71
+  },
+  "orderedDhondtVerified": true,
+  "independentOfCorrection": true,
+  "seconds": 60.695,
+  "provinces": [
+    {
+      "code": "1",
+      "solid": 1,
+      "likely": 1,
+      "swing": 2
+    },
+    {
+      "code": "2",
+      "solid": 2,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "3",
+      "solid": 8,
+      "likely": 3,
+      "swing": 1
+    },
+    {
+      "code": "4",
+      "solid": 4,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "5",
+      "solid": 1,
+      "likely": 0,
+      "swing": 2
+    },
+    {
+      "code": "6",
+      "solid": 3,
+      "likely": 2,
+      "swing": 0
+    },
+    {
+      "code": "7",
+      "solid": 5,
+      "likely": 2,
+      "swing": 1
+    },
+    {
+      "code": "8",
+      "solid": 20,
+      "likely": 6,
+      "swing": 6
+    },
+    {
+      "code": "9",
+      "solid": 2,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "10",
+      "solid": 2,
+      "likely": 0,
+      "swing": 2
+    },
+    {
+      "code": "11",
+      "solid": 5,
+      "likely": 3,
+      "swing": 1
+    },
+    {
+      "code": "12",
+      "solid": 3,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "13",
+      "solid": 4,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "14",
+      "solid": 4,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "15",
+      "solid": 5,
+      "likely": 1,
+      "swing": 2
+    },
+    {
+      "code": "16",
+      "solid": 2,
+      "likely": 1,
+      "swing": 0
+    },
+    {
+      "code": "17",
+      "solid": 2,
+      "likely": 2,
+      "swing": 2
+    },
+    {
+      "code": "18",
+      "solid": 5,
+      "likely": 0,
+      "swing": 2
+    },
+    {
+      "code": "19",
+      "solid": 3,
+      "likely": 0,
+      "swing": 0
+    },
+    {
+      "code": "20",
+      "solid": 2,
+      "likely": 2,
+      "swing": 2
+    },
+    {
+      "code": "21",
+      "solid": 4,
+      "likely": 1,
+      "swing": 0
+    },
+    {
+      "code": "22",
+      "solid": 2,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "23",
+      "solid": 4,
+      "likely": 1,
+      "swing": 0
+    },
+    {
+      "code": "24",
+      "solid": 2,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "25",
+      "solid": 2,
+      "likely": 0,
+      "swing": 2
+    },
+    {
+      "code": "26",
+      "solid": 3,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "27",
+      "solid": 3,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "28",
+      "solid": 26,
+      "likely": 5,
+      "swing": 6
+    },
+    {
+      "code": "29",
+      "solid": 7,
+      "likely": 2,
+      "swing": 2
+    },
+    {
+      "code": "30",
+      "solid": 6,
+      "likely": 3,
+      "swing": 1
+    },
+    {
+      "code": "31",
+      "solid": 2,
+      "likely": 1,
+      "swing": 2
+    },
+    {
+      "code": "32",
+      "solid": 3,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "33",
+      "solid": 5,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "34",
+      "solid": 2,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "35",
+      "solid": 4,
+      "likely": 2,
+      "swing": 2
+    },
+    {
+      "code": "36",
+      "solid": 4,
+      "likely": 1,
+      "swing": 2
+    },
+    {
+      "code": "37",
+      "solid": 3,
+      "likely": 1,
+      "swing": 0
+    },
+    {
+      "code": "38",
+      "solid": 4,
+      "likely": 2,
+      "swing": 1
+    },
+    {
+      "code": "39",
+      "solid": 4,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "40",
+      "solid": 1,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "41",
+      "solid": 8,
+      "likely": 2,
+      "swing": 2
+    },
+    {
+      "code": "42",
+      "solid": 1,
+      "likely": 1,
+      "swing": 0
+    },
+    {
+      "code": "43",
+      "solid": 2,
+      "likely": 3,
+      "swing": 1
+    },
+    {
+      "code": "44",
+      "solid": 1,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "45",
+      "solid": 4,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "46",
+      "solid": 12,
+      "likely": 1,
+      "swing": 3
+    },
+    {
+      "code": "47",
+      "solid": 4,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "48",
+      "solid": 3,
+      "likely": 2,
+      "swing": 3
+    },
+    {
+      "code": "49",
+      "solid": 1,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "50",
+      "solid": 5,
+      "likely": 1,
+      "swing": 1
+    },
+    {
+      "code": "51",
+      "solid": 0,
+      "likely": 0,
+      "swing": 1
+    },
+    {
+      "code": "52",
+      "solid": 1,
+      "likely": 0,
+      "swing": 0
+    }
+  ],
+  "junts": {
+    "aggregate": 1.7448370664522617,
+    "seats": 7,
+    "without": [
+      {
+        "institute": "Sigma Dos",
+        "share": 1.2,
+        "aggregateWithout": 2.040180851756641,
+        "seatsWithout": 8
+      },
+      {
+        "institute": "NC Report",
+        "share": 2.9,
+        "aggregateWithout": 1.2,
+        "seatsWithout": 3
+      },
+      {
+        "institute": "InvyMark",
+        "share": 1.2,
+        "aggregateWithout": 2.010749593534307,
+        "seatsWithout": 8
+      }
+    ],
+    "histogram": {
+      "1": 11,
+      "2": 17,
+      "3": 150,
+      "4": 113,
+      "5": 149,
+      "6": 89,
+      "7": 65,
+      "8": 248,
+      "9": 61,
+      "10": 35,
+      "11": 10,
+      "12": 40,
+      "13": 9,
+      "14": 2,
+      "16": 1
+    }
+  }
+}

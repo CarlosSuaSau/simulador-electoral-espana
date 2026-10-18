@@ -1,0 +1,175 @@
+{
+  "checked": "2026-10-17",
+  "policy": "CIS and identified CIS-derived polls excluded from the model, including imports and saved scenarios. Latest eligible poll per institute.",
+  "included": [
+    {
+      "id": "gad3-2026-10",
+      "institute": "GAD3",
+      "source": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR"
+      ],
+      "missingFields": [],
+      "notes": "Texto y ficha del instituto. Desglose parcial: el 11,2 % agregado como otros no se convierte en una papeleta ni se atribuye a Podemos. Denominador válido asumido pendiente de tablas completas."
+    },
+    {
+      "id": "sigma-dos-2026-10-12",
+      "institute": "Sigma Dos",
+      "source": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR",
+        "PODEMOS",
+        "ERC",
+        "JUNTS",
+        "BILDU",
+        "PNV",
+        "BNG",
+        "AA",
+        "CC",
+        "UPN"
+      ],
+      "missingFields": [
+        "start",
+        "end"
+      ],
+      "notes": "Publicación directa del instituto, muestra 2.017. No se publican fechas de campo en el texto accesible: se pondera por publicación. Se usa 31,9 % del PP del instituto, sin sustituirlo por valores de recopilaciones. SALF no se desglosa en el texto. Denominador válido asumido."
+    },
+    {
+      "id": "imop-2026-10-09",
+      "institute": "IMOP Insights",
+      "source": "https://www.imop.es/encuesta-pre-electoral-para-el-confidencial-2026/",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR"
+      ],
+      "missingFields": [],
+      "notes": "Porcentajes y ficha del instituto; denominador válido explícito para PP. Se conservan los valores publicados por IMOP, diferentes de algunas recopilaciones. No se deducen porcentajes a partir del gráfico de escaños."
+    },
+    {
+      "id": "sociometrica-2026-10-11",
+      "institute": "SocioMétrica",
+      "source": "https://www.elespanol.com/espana/politica/20261011/sanchez-no-funciona-apropiarse-maricarmen-huelga-oposicion-cae-sondeo-noche/1003744416762_0.html",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR",
+        "PODEMOS",
+        "BILDU",
+        "PNV",
+        "AA"
+      ],
+      "missingFields": [],
+      "notes": "Transcripción del cuerpo del artículo y ficha de 1.000 entrevistas. Sumar 4,9 % y Podemos 2,8 %, según texto del medio: no se usan valores contradictorios de recopilaciones. Solo se incluyen categorías comprobadas. Denominador válido asumido."
+    },
+    {
+      "id": "dym-2026-10-09",
+      "institute": "DYM",
+      "source": "https://www.20minutos.es/nacional/psoe-absorbe-intencion-votos-sumar-podemos-mientras-pp-vox-consolidan-su-mayoria_7046598_0.html",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX"
+      ],
+      "missingFields": [],
+      "notes": "Texto y ficha del medio. No se incorpora la separación Sumar/Podemos porque el texto y las recopilaciones no cuadran: se necesita el gráfico o las tablas originales. No se inventa el reparto de su suma. Denominador válido asumido."
+    },
+    {
+      "id": "nc-report-2026-10-08",
+      "institute": "NC Report",
+      "source": "https://www.larazon.es/espana/adelanto-electoral-refuerza-bloque-vox-junts_202610086ac69166b0108820e09b13b5.html",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR",
+        "PODEMOS",
+        "JUNTS"
+      ],
+      "missingFields": [
+        "start",
+        "end",
+        "sample"
+      ],
+      "notes": "Porcentajes del cuerpo de la publicación. Fechas de campo y muestra no comprobadas en el texto: quedan ausentes y se usa publicación para antigüedad. Pendiente de ficha original, no se inventan fechas ni tamaño. Denominador válido asumido."
+    },
+    {
+      "id": "invymark-2026-10-09",
+      "institute": "InvyMark",
+      "source": "https://stories.lasexta.com/newstory/stories/3d677c8a6c933038d4ce",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR",
+        "PODEMOS",
+        "ERC",
+        "SALF",
+        "BILDU",
+        "JUNTS",
+        "PNV"
+      ],
+      "missingFields": [
+        "start",
+        "end",
+        "sample"
+      ],
+      "notes": "Publicación del medio fechado el 9 de octubre. No se publica la ficha completa en la pieza accesible: se usa fecha de publicación. Campo y muestra ausentes. Denominador válido asumido."
+    },
+    {
+      "id": "40db-2026-10",
+      "institute": "40dB.",
+      "source": "https://elpais.com/espana/2026-10-05/el-tiron-de-vox-mantiene-al-bloque-de-la-derecha-en-el-50-en-plena-conmocion-por-maricarmen.html",
+      "checkedFields": [
+        "PP",
+        "PSOE",
+        "VOX",
+        "SUMAR",
+        "PODEMOS",
+        "SALF"
+      ],
+      "missingFields": [],
+      "notes": "Se activa la encuesta por instrucción del usuario de usar encuestadoras distintas del CIS. Ficha: población española salvo Ceuta y Melilla; aplicación nacional supone extrapolar esas dos circunscripciones. La encuesta flash posterior queda pendiente de incorporación de sus tablas completas. Denominador válido asumido."
+    }
+  ],
+  "pending": [
+    {
+      "institute": "GESOP",
+      "url": "https://www.elperiodico.cat/politica/20261012/l-avancament-electoral-altera-l-135235814",
+      "reason": "Primary page failed to open; conflicting or partial secondary tables. Not included without checking original report."
+    },
+    {
+      "institute": "Hamalgama Metrica",
+      "url": "https://www.electografica.com/2026/10/encuesta-hamalgama-metrica-261011.html",
+      "reason": "Poll found via secondary publication; original Vozpopuli report and full technical sheet not retrieved. Not included."
+    },
+    {
+      "institute": "Target Point",
+      "url": "https://www.libertaddigital.com/espana/politica/2026-10-11/sanchez-se-hunde-tras-el-adelanto-pp-y-vox-lograrian-hasta-212-escanos-segun-las-encuestas-7473851/amp.html",
+      "reason": "Mention in secondary reporting; original El Debate report with percentages, fieldwork and sample not verified. Not included."
+    },
+    {
+      "institute": "Ipsos",
+      "url": "https://www.ipsos.com/es-es",
+      "reason": "Search did not locate a complete recent national October 2026 voting-intention publication. No fabricated entry."
+    },
+    {
+      "institute": "Simple Logica",
+      "url": null,
+      "reason": "Search did not locate a complete recent national October 2026 publication. No fabricated entry."
+    },
+    {
+      "institute": "40dB flash 2026-10-09",
+      "url": "https://elpais.com/espana/2026-10-09/consulte-todos-los-datos-internos-de-la-encuesta-de-el-pais-cuestionarios-cruces-y-respuestas-individuales.html",
+      "reason": "Data hub found; full original tables still needed before replacing the checked September fieldwork."
+    }
+  ]
+}

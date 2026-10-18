@@ -1,0 +1,31 @@
+{
+  "id": "sigma-dos-2026-10-12",
+  "institute": "Sigma Dos",
+  "publisher": "El Mundo",
+  "start": null,
+  "end": null,
+  "published": "2026-10-12",
+  "sample": 2017,
+  "source": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/",
+  "originalSource": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 31.9,
+    "PSOE": 25.3,
+    "VOX": 19.1,
+    "SUMAR": 7.6,
+    "PODEMOS": 3.1,
+    "ERC": 2.6,
+    "JUNTS": 1.2,
+    "BILDU": 1.1,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "AA": 0.8,
+    "CC": 0.5,
+    "UPN": 0.2
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Publicación directa del instituto, muestra 2.017. No se publican fechas de campo en el texto accesible: se pondera por publicación. Se usa 31,9 % del PP del instituto, sin sustituirlo por valores de recopilaciones. SALF no se desglosa en el texto. Denominador válido asumido."
+}

@@ -1,0 +1,16 @@
+{
+  "cutoff": "2023-07-17",
+  "selection": "Última publicación preelectoral hasta el cierre legal del 17 de julio; se excluyen sondeos de cierre de urnas y CIS. Estimación de voto, no intención directa. Porcentajes sobre válido asumidos comparables; pequeñas diferencias de denominador permanecen como limitación.",
+  "polls": [
+    {"institute":"GAD3","published":"2023-07-17","shares":{"PP":36.9,"PSOE":28.6,"VOX":11.7,"SUMAR":11.5},"source":"https://www.abc.es/espana/derrumbe-diaz-impide-sanchez-bloquear-derecha-blindada-20230717211937-nt.html","verification":"primary"},
+    {"institute":"Sigma Dos","published":"2023-07-17","shares":{"PP":35.4,"PSOE":28.0,"VOX":11.2,"SUMAR":13.6},"source":"https://www.elmundo.es/elecciones/elecciones-generales/2023/07/17/64b58986e9cf4a5e018b459f.html","verification":"primary"},
+    {"institute":"IMOP Insights","published":"2023-07-17","shares":{"PP":32.9,"PSOE":28.2,"VOX":14.5,"SUMAR":12.8},"source":"https://www.elconfidencial.com/espana/observatorio-electoral/2023-07-17/encuesta-pp-escanos-vox-decisivo-gobernar_3701636/","verification":"primary"},
+    {"institute":"SocioMétrica","published":"2023-07-17","shares":{"PP":33.5,"PSOE":28.3,"VOX":13.7,"SUMAR":13.2},"source":"https://www.elespanol.com/espana/politica/20230717/ultimo-sondeo-pp-sigue-subiendo-obtendria-hoy-escanos-psoe-sumar-juntos/779422173_0.html","verification":"primary"},
+    {"institute":"DYM","published":"2023-07-17","shares":{"PP":35.5,"PSOE":27.1,"VOX":12.3,"SUMAR":13.1},"source":"https://www.heraldo.es/noticias/nacional/2023/07/17/fuga-votantes-psoe-y-vox-lanzaria-pp-hasta-150-escanos-elecciones-generales-23j-1665249.html","verification":"secondary","note":"Artículo original de 20minutos reproducido por Henneo; porcentajes contrastados en recopilación enlazada, gráfico original pendiente de archivo."},
+    {"institute":"NC Report","published":"2023-07-17","shares":{"PP":37.2,"PSOE":28.3,"VOX":11.1,"SUMAR":11.3},"source":"https://www.larazon.es/elecciones/generales/feijoo-sube-156-escanos-vox-caida-supera-uno-sumar_2023071764b486361f1191000173efd6.html","verification":"secondary","note":"PP y horquillas comprobados en fuente original; desglose de porcentajes completado con la recopilación enlazada."},
+    {"institute":"InvyMark","published":"2023-07-16","shares":{"PP":33.5,"PSOE":26.3,"VOX":13.8,"SUMAR":13.7},"source":"https://www.lasexta.com/elecciones/generales/barometro-lasexta-ganaria-elecciones-generales-23j-335-votos_2023071664b3f42b1f1191000172ecfd.html","verification":"primary"},
+    {"institute":"40dB.","published":"2023-07-17","shares":{"PP":32.9,"PSOE":28.7,"VOX":13.5,"SUMAR":13.7},"source":"https://elpais.com/espana/elecciones-generales/2023-07-17/la-campana-enfila-la-recta-final-con-la-derecha-acariciando-la-mayoria.html","verification":"primary"}
+  ],
+  "crossCheck": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Spanish_general_election",
+  "resultSource": "https://descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx"
+}

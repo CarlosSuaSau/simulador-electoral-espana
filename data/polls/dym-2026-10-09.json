@@ -1,0 +1,21 @@
+{
+  "id": "dym-2026-10-09",
+  "institute": "DYM",
+  "publisher": "20minutos",
+  "start": "2026-10-05",
+  "end": "2026-10-07",
+  "published": "2026-10-09",
+  "sample": 1011,
+  "source": "https://www.20minutos.es/nacional/psoe-absorbe-intencion-votos-sumar-podemos-mientras-pp-vox-consolidan-su-mayoria_7046598_0.html",
+  "originalSource": "https://www.20minutos.es/nacional/psoe-absorbe-intencion-votos-sumar-podemos-mientras-pp-vox-consolidan-su-mayoria_7046598_0.html",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 34,
+    "PSOE": 28.2,
+    "VOX": 18.2
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Texto y ficha del medio. No se incorpora la separación Sumar/Podemos porque el texto y las recopilaciones no cuadran: se necesita el gráfico o las tablas originales. No se inventa el reparto de su suma. Denominador válido asumido."
+}
