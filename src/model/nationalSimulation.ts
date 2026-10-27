@@ -1,5 +1,6 @@
 import {aggregate,pollAverage,probabilitySimulation} from './projection';
 import {actual2023,adjustForError,correctionKeys,referenceError,errorCatalog} from './pollCorrection';
+import {ballotAverage} from './ballotPolls';
 import {eligiblePolls} from './pollPolicy';
 import type {Config,Probabilities} from './types';
 export type NationalOptions={iterations:number;seed:number};
@@ -26,7 +27,7 @@ export function nationalSimulation(config:Config,options:NationalOptions,onProgr
     // One shared national vector per election, covering opposite error, no
     // repeat, half repeat and up to 1.5 times 2023. Mean strength = 0.5.
     const strength=-0.5+2*random();
-    const draws=base.polls.map(p=>({...p,weight:p.weight*-Math.log(Math.max(random(),1e-12)),shares:adjustForError(p,errors,strength)}));
+    const draws=base.polls.map(p=>({...p,weight:p.weight*-Math.log(Math.max(random(),1e-12)),shares:adjustForError(p,errors,strength),ballotShares:p.ballotShares?Object.fromEntries(Object.entries(p.ballotShares).map(([k,n])=>{const total=Object.values(p.ballotShares!).reduce((s,v)=>s+v,0);const value=adjustForError({...p,shares:{...p.shares,SUMAR:total}},errors,strength).SUMAR;return [k,total?n*value/total:0];})):undefined}));
     const scale=Math.min(1,100/Math.max(...draws.map(p=>p.weight),1));
     // Bayesian bootstrap of institutes also propagates current disagreement,
     // including parties such as Junts without a comparable 2023 error vector.
@@ -35,7 +36,7 @@ export function nationalSimulation(config:Config,options:NationalOptions,onProgr
     // independent item means can exceed 100% when bootstrap weights change.
     // Keep the original measured budget and unreported residual unchanged.
     const shares=sampledAggregate(sampled,measuredBudget);
-    return {...base,polls:[{...polls[0],id:'national-sampled-aggregate',institute:'Agregado simulado',verification:'user',denominator:'valid',shares,weight:1,start:null,end:null,published:base.asOf,enabled:true}]};
+    return {...base,polls:[{...polls[0],id:'national-sampled-aggregate',institute:'Agregado simulado',verification:'user',denominator:'valid',shares,ballotShares:ballotAverage(sampled),weight:1,start:null,end:null,published:base.asOf,enabled:true}]};
   });
 }
 export function atLeast(hist:Record<number,number>,seat:number,iterations:number){return Object.entries(hist).reduce((s,[n,count])=>s+(Number(n)>=seat?count:0),0)/iterations;}

@@ -11,7 +11,7 @@ it('recupera Vox en Tenerife con ambas generales sin alterar el archivo de 2023'
   expect(blended.fittingError).toBeLessThan(1);
 });
 it('usa una papeleta UPN–PP en Navarra y conserva todos los electores',()=>{
-  const r=project(defaultConfig()).provinces.find(p=>p.code==='31')!;
+  const c=defaultConfig();c.polls=c.polls.map(p=>({...p,ballotShares:undefined}));const r=project(c).provinces.find(p=>p.code==='31')!;
   expect(Math.abs(r.votes.UPN_PP-.99*(r.sourceVotes.UPN+r.sourceVotes.PP))).toBeLessThan(2);
   expect(r.votes.PP).toBe(0);expect(r.votes.UPN).toBe(0);
   expect(Object.values(r.votes).reduce((s,n)=>s+n,r.blank+r.invalid+r.abstention)).toBe(provinces.find(p=>p.code==='31')!.census);

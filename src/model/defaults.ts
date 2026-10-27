@@ -20,10 +20,10 @@ export const labels: Record<string,string> = {PSOE:'PSOE',PP:'PP',SUMAR:'Sumar',
 
 export function defaultConfig(): Config {
   return {
-    version:2, name:'Encuestas 2026 · escenario de trabajo', asOf:'2026-10-17',
+    version:2, name:'Encuestas 2026 · escenario de trabajo', asOf:'2026-10-27',
     polls:structuredClone(pollCatalog) as unknown as Poll[],
     candidates:structuredClone(closedCandidates),
-    successors:closedSuccessors(),dataRevision:6,
+    successors:closedSuccessors(),dataRevision:7,
     profileWeights:{'2023-07-23':100,'2019-11-10':0,'2019-04-28':0},
     routes:defaultTransfers(),turnout:65,blank:0.8,invalid:1,
     halfLife:30,proxies:{PODEMOS:'SUMAR',SALF:'VOX'},territorial:{},

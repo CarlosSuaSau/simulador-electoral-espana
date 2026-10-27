@@ -3,12 +3,12 @@
   "seed": 20261018,
   "totalSeats": 350000,
   "counts": {
-    "consolidated": 279,
-    "swing": 71
+    "consolidated": 272,
+    "swing": 78
   },
   "orderedDhondtVerified": true,
   "independentOfCorrection": true,
-  "seconds": 60.695,
+  "seconds": 55.334,
   "provinces": [
     {
       "code": "1",
@@ -18,15 +18,15 @@
     },
     {
       "code": "2",
-      "solid": 2,
-      "likely": 1,
+      "solid": 3,
+      "likely": 0,
       "swing": 1
     },
     {
       "code": "3",
       "solid": 8,
-      "likely": 3,
-      "swing": 1
+      "likely": 2,
+      "swing": 2
     },
     {
       "code": "4",
@@ -55,8 +55,8 @@
     {
       "code": "8",
       "solid": 20,
-      "likely": 6,
-      "swing": 6
+      "likely": 4,
+      "swing": 8
     },
     {
       "code": "9",
@@ -67,14 +67,14 @@
     {
       "code": "10",
       "solid": 2,
-      "likely": 0,
-      "swing": 2
+      "likely": 1,
+      "swing": 1
     },
     {
       "code": "11",
       "solid": 5,
-      "likely": 3,
-      "swing": 1
+      "likely": 2,
+      "swing": 2
     },
     {
       "code": "12",
@@ -156,8 +156,8 @@
     },
     {
       "code": "25",
-      "solid": 2,
-      "likely": 0,
+      "solid": 1,
+      "likely": 1,
       "swing": 2
     },
     {
@@ -174,8 +174,8 @@
     },
     {
       "code": "28",
-      "solid": 26,
-      "likely": 5,
+      "solid": 25,
+      "likely": 6,
       "swing": 6
     },
     {
@@ -186,8 +186,8 @@
     },
     {
       "code": "30",
-      "solid": 6,
-      "likely": 3,
+      "solid": 7,
+      "likely": 2,
       "swing": 1
     },
     {
@@ -205,8 +205,8 @@
     {
       "code": "33",
       "solid": 5,
-      "likely": 1,
-      "swing": 1
+      "likely": 0,
+      "swing": 2
     },
     {
       "code": "34",
@@ -216,27 +216,27 @@
     },
     {
       "code": "35",
-      "solid": 4,
-      "likely": 2,
+      "solid": 5,
+      "likely": 1,
       "swing": 2
     },
     {
       "code": "36",
-      "solid": 4,
-      "likely": 1,
+      "solid": 5,
+      "likely": 0,
       "swing": 2
     },
     {
       "code": "37",
-      "solid": 3,
-      "likely": 1,
+      "solid": 4,
+      "likely": 0,
       "swing": 0
     },
     {
       "code": "38",
-      "solid": 4,
-      "likely": 2,
-      "swing": 1
+      "solid": 5,
+      "likely": 0,
+      "swing": 2
     },
     {
       "code": "39",
@@ -253,8 +253,8 @@
     {
       "code": "41",
       "solid": 8,
-      "likely": 2,
-      "swing": 2
+      "likely": 0,
+      "swing": 4
     },
     {
       "code": "42",
@@ -264,15 +264,15 @@
     },
     {
       "code": "43",
-      "solid": 2,
-      "likely": 3,
+      "solid": 4,
+      "likely": 1,
       "swing": 1
     },
     {
       "code": "44",
-      "solid": 1,
+      "solid": 2,
       "likely": 1,
-      "swing": 1
+      "swing": 0
     },
     {
       "code": "45",
@@ -282,9 +282,9 @@
     },
     {
       "code": "46",
-      "solid": 12,
+      "solid": 11,
       "likely": 1,
-      "swing": 3
+      "swing": 4
     },
     {
       "code": "47",
@@ -324,44 +324,41 @@
     }
   ],
   "junts": {
-    "aggregate": 1.7448370664522617,
-    "seats": 7,
+    "aggregate": 1.3905495479492964,
+    "seats": 4,
     "without": [
       {
         "institute": "Sigma Dos",
         "share": 1.2,
-        "aggregateWithout": 2.040180851756641,
-        "seatsWithout": 8
+        "aggregateWithout": 1.4956906447600533,
+        "seatsWithout": 5
       },
       {
-        "institute": "NC Report",
-        "share": 2.9,
+        "institute": "SocioMétrica",
+        "share": 1.7,
         "aggregateWithout": 1.2,
         "seatsWithout": 3
       },
       {
         "institute": "InvyMark",
         "share": 1.2,
-        "aggregateWithout": 2.010749593534307,
-        "seatsWithout": 8
+        "aggregateWithout": 1.4586608724160925,
+        "seatsWithout": 5
       }
     ],
     "histogram": {
-      "1": 11,
-      "2": 17,
-      "3": 150,
-      "4": 113,
-      "5": 149,
-      "6": 89,
-      "7": 65,
-      "8": 248,
-      "9": 61,
-      "10": 35,
-      "11": 10,
-      "12": 40,
-      "13": 9,
-      "14": 2,
-      "16": 1
+      "1": 51,
+      "2": 58,
+      "3": 265,
+      "4": 195,
+      "5": 189,
+      "6": 76,
+      "7": 43,
+      "8": 94,
+      "9": 9,
+      "10": 14,
+      "11": 1,
+      "12": 5
     }
   }
 }

@@ -7,6 +7,7 @@ export type Poll = {
   id: string; institute: string; publisher: string; start: string | null; end: string | null;
   published: string; sample: number | null; source: string; originalSource: string;
   verification: 'primary' | 'secondary' | 'user'; denominator: 'valid' | 'candidates';
+  ballotShares?: Record<string, number>;
   shares: Record<string, number>; enabled: boolean; weight: number; note?: string;
 };
 export type Candidate = {

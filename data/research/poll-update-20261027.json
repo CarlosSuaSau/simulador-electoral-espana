@@ -1,0 +1,84 @@
+{
+  "asOf": "2026-10-27",
+  "replaced": [
+    "Sigma Dos",
+    "IMOP Insights",
+    "SocioMétrica",
+    "NC Report",
+    "40dB."
+  ],
+  "retained": [
+    "GAD3",
+    "DYM",
+    "InvyMark"
+  ],
+  "sources": [
+    {
+      "institute": "GAD3",
+      "source": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/",
+      "published": "2026-10-12",
+      "notes": "Texto y ficha del instituto. Desglose parcial: el 11,2 % agregado como otros no se convierte en una papeleta ni se atribuye a Podemos. Denominador válido asumido pendiente de tablas completas."
+    },
+    {
+      "institute": "Sigma Dos",
+      "source": "https://www.sigmados.com/noticia?id=6KFRJttWfJrtP8C5",
+      "published": "2026-10-26",
+      "notes": "Fuente original: Frente Amplio 7,4 % y Compromís 0,8 % se miden por separado. El 8,2 % de algunas recopilaciones es su suma, no otra candidatura Sumar. CC conserva su categoría publicada; no identifica el reparto NC/Primero Canarias."
+    },
+    {
+      "institute": "IMOP Insights",
+      "source": "https://www.imop.es/encuesta-pre-electoral-el-confidencial-ola-2/",
+      "published": "2026-10-23",
+      "notes": "Ola 2, fuente del instituto. Solo porcentajes verificados en la publicación accesible. No se convierten escaños en porcentajes ni se usa el 8,9 % de recopiladores sin comprobar la tabla original."
+    },
+    {
+      "institute": "SocioMétrica",
+      "source": "https://www.elespanol.com/espana/politica/20261025/izquierda-no-remonta-sanchez-gana-escanos-costa-frente-podemos-sondeo-noche/1003744434105_0.html",
+      "published": "2026-10-25",
+      "notes": "Texto original actualizado el 26 de octubre: PP 32 % sin UPN; Frente Amplio 4,5 %; Front Valencià 0,9 %. Difiere de recopiladores (PP 32,4 %, FA 4,9 % o bloque 6,1 %). Campo acumulado desde septiembre, sin fecha final comprobada. ERC con Podemos 2,6 % no se interpreta como ERC aislada para evitar doble trasvase."
+    },
+    {
+      "institute": "DYM",
+      "source": "https://www.20minutos.es/nacional/psoe-absorbe-intencion-votos-sumar-podemos-mientras-pp-vox-consolidan-su-mayoria_7046598_0.html",
+      "published": "2026-10-09",
+      "notes": "Texto y ficha del medio. No se incorpora la separación Sumar/Podemos porque el texto y las recopilaciones no cuadran: se necesita el gráfico o las tablas originales. No se inventa el reparto de su suma. Denominador válido asumido."
+    },
+    {
+      "institute": "NC Report",
+      "source": "https://www.larazon.es/espana/18-votantes-socialistas-apoyan-hoy-vox_202610266adea62a3eef771e1ac8d43d.html",
+      "published": "2026-10-26",
+      "notes": "Texto original: PP 32,9 %, frente al 33,1 % de recopiladores. Campo 22–24 octubre; muestra no comprobada. Frente Amplio 6,6 % según el medio; sin desglose territorial verificable. Los trasvases desde 2023 ya están incluidos en la estimación actual."
+    },
+    {
+      "institute": "InvyMark",
+      "source": "https://stories.lasexta.com/newstory/stories/3d677c8a6c933038d4ce",
+      "published": "2026-10-09",
+      "notes": "Publicación del medio fechado el 9 de octubre. No se publica la ficha completa en la pieza accesible: se usa fecha de publicación. Campo y muestra ausentes. Denominador válido asumido."
+    },
+    {
+      "institute": "40dB.",
+      "source": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html",
+      "published": "2026-10-09",
+      "notes": "Encuesta flash posterior al barómetro mensual, 800 entrevistas online. Se usa el escenario de candidaturas separadas, no la coalición unitaria hipotética del 9,5 %. No se aplican otra vez los movimientos desde el voto de 2023 a estas estimaciones de 2026."
+    }
+  ],
+  "transferEvidence": {
+    "basis": "recuerdo de voto de 2023; no reaplicar sobre intención de 2026",
+    "NC Report": {
+      "PP_to_VOX": 13.5,
+      "VOX_to_PP": 6.9,
+      "PSOE_to_PP": 10.6,
+      "PSOE_to_VOX": 7.3,
+      "SUMAR2023_to_FA": 40.3,
+      "SUMAR2023_to_PODEMOS": 18.5,
+      "SUMAR2023_to_PSOE": 20.2,
+      "SUMAR2023_to_abstention": 16.6
+    },
+    "40dB.": {
+      "PP_to_VOX": 15.6,
+      "PSOE_to_PP": 5.9,
+      "PSOE_to_VOX": 2.7
+    }
+  },
+  "coalitionApproach": "Direct coalition observations calibrate final national ballot totals after exploratory transfers, with structural zeros and provincial electorate conserved. Legacy Sumar estimates only seed the territorial prior. No direct NC/Primero Canarias origin table verified; retain 60/40 assumption. These national margins cannot identify individual voter transitions. Provinces with no directly measured coalition remain unchanged."
+}

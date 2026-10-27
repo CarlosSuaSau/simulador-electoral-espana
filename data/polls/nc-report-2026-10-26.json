@@ -1,0 +1,26 @@
+{
+  "id": "nc-report-2026-10-26",
+  "institute": "NC Report",
+  "publisher": "La Razón",
+  "start": "2026-10-22",
+  "end": "2026-10-24",
+  "published": "2026-10-26",
+  "sample": null,
+  "source": "https://www.larazon.es/espana/18-votantes-socialistas-apoyan-hoy-vox_202610266adea62a3eef771e1ac8d43d.html",
+  "originalSource": "https://www.larazon.es/espana/18-votantes-socialistas-apoyan-hoy-vox_202610266adea62a3eef771e1ac8d43d.html",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 32.9,
+    "PSOE": 25.8,
+    "VOX": 19,
+    "PODEMOS": 2.6,
+    "AA": 1.3
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Texto original: PP 32,9 %, frente al 33,1 % de recopiladores. Campo 22–24 octubre; muestra no comprobada. Frente Amplio 6,6 % según el medio; sin desglose territorial verificable. Los trasvases desde 2023 ya están incluidos en la estimación actual.",
+  "ballotShares": {
+    "FA": 6.6
+  }
+}

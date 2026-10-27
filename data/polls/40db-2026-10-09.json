@@ -1,0 +1,24 @@
+{
+  "id": "40db-2026-10-09",
+  "institute": "40dB.",
+  "publisher": "EL PAÍS / Cadena SER",
+  "start": "2026-10-07",
+  "end": "2026-10-08",
+  "published": "2026-10-09",
+  "sample": 800,
+  "source": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html",
+  "originalSource": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 31.9,
+    "PSOE": 28.1,
+    "VOX": 18.9,
+    "SUMAR": 5.3,
+    "PODEMOS": 2.3,
+    "SALF": 1.8
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Encuesta flash posterior al barómetro mensual, 800 entrevistas online. Se usa el escenario de candidaturas separadas, no la coalición unitaria hipotética del 9,5 %. No se aplican otra vez los movimientos desde el voto de 2023 a estas estimaciones de 2026."
+}

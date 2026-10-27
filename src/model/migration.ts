@@ -37,5 +37,13 @@ export function migrateConfig(value:unknown):Config {
     c.routes.push(...base.routes.filter(t=>!c.routes.some(r=>r.province===t.province&&r.origin===t.origin)));
     c.dataRevision=6;
   }
+  if((c.dataRevision??0)<7){
+    const base=defaultConfig();
+    const shipped=new Set(base.polls.map(p=>p.institute));
+    const custom=c.polls.filter(p=>p.verification==='user'||!shipped.has(p.institute));
+    c.polls=[...base.polls.map(p=>{const previous=c.polls.find(q=>q.institute===p.institute&&q.verification!=='user');return {...p,enabled:previous?.enabled??p.enabled,weight:previous?.weight??p.weight};}),...custom.filter(p=>!base.polls.some(b=>b.id===p.id))];
+    if(c.asOf<base.asOf)c.asOf=base.asOf;
+    c.dataRevision=7;
+  }
   return c;
 }

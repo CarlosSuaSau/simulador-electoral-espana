@@ -6,6 +6,7 @@ import {seededRandom} from '../lib/monteCarlo';
 import type {Config,Forecast,Poll,Province,Projection,Probabilities} from './types';
 import {eligiblePolls,pollDate} from './pollPolicy';
 import {territorialProfiles} from './profiles';
+import {ballotAverage,fitBallotVotes} from './ballotPolls';
 import {correctedShares} from './pollCorrection';
 
 export const provinces = raw.provinces as unknown as Province[];
@@ -26,7 +27,10 @@ export function validatePoll(p:Poll){
 export function validateConfig(value:unknown):Config {
   const c=value as Config;
   if(!c||c.version!==2||typeof c.name!=='string'||!dateValid(c.asOf)||!Array.isArray(c.polls)||!Array.isArray(c.candidates)||!Array.isArray(c.routes)||!c.proxies||!c.territorial||!c.uncertainty)throw Error('Configuración 2026 incompatible (se requiere versión 2).');
-  c.polls.forEach(validatePoll);
+  c.polls.forEach(p=>{
+    validatePoll(p);
+    if(p.ballotShares&&(Object.entries(p.ballotShares).some(([k,v])=>!c.candidates.some(a=>a.id===k)||!finite(v)||k in p.shares)||Object.values(p.ballotShares).reduce((s,n)=>s+n,0)>100.001))throw Error('Categorías de coalición inválidas o duplicadas.');
+  });
   if(new Set(c.polls.map(p=>p.id)).size!==c.polls.length)throw Error('Hay encuestas con identificador duplicado.');
   if(!finite(c.turnout,1,100)||!finite(c.blank,0,20)||!finite(c.invalid,0,20)||!finite(c.halfLife,1,3650))throw Error('Revisa participación, blancos, nulos y semivida.');
   const ids=new Set(Object.keys(familyLabels).concat(['PODEMOS','SALF']));
@@ -170,6 +174,18 @@ export function project(c:Config,noise?:Noise):Forecast {
     for(const [k,n] of Object.entries(result.allocation))allocation[k]=(allocation[k]??0)+n;
     return {code:p.code,seats:p.seats,votes,sourceVotes:source,blank:totals['@blank'],invalid:totals['@null'],abstention:totals['@abstention'],valid:Object.values(votes).reduce((a,b)=>a+b,totals['@blank']),allocation:result.allocation,last:result.lastSeatCandidate,next:result.contenders[0]??null,tie:result.unresolvedTies.length>0,awarded:result.quotientTable.slice(0,p.seats).map(q=>q.candidate)};
   });
+  const ballots=ballotAverage(c);
+  if(Object.keys(ballots).length){
+    for(const key of Object.keys(ballots))if(noise)ballots[key]*=Math.exp(noise.normal()*c.uncertainty.national/Math.max(Math.sqrt(ballots[key]*25),1));
+    fitBallotVotes(results,ballots);
+    for(const key of Object.keys(allocation))delete allocation[key];
+    for(const p of results){
+      const drawOrder=noise?Object.keys(p.votes).map(k=>({k,r:noise.random()})).sort((a,b)=>a.r-b.r).map(x=>x.k):[];
+      const result=calculateDhondt(p.votes,p.seats,3,p.blank,drawOrder);
+      p.allocation=result.allocation;p.last=result.lastSeatCandidate;p.next=result.contenders[0]??null;p.tie=result.unresolvedTies.length>0;p.awarded=result.quotientTable.slice(0,p.seats).map(q=>q.candidate);
+      for(const [key,n] of Object.entries(p.allocation))allocation[key]=(allocation[key]??0)+n;
+    }
+  }
   return {provinces:results,allocation,nationalTargets:targets,nationalActual,fittingError:error,pollWeights:poll.weights};
 }
 export function probabilitySimulation(c:Config,onProgress?:(n:number)=>void,sampleConfig?:(c:Config,random:()=>number,normal:()=>number)=>Config):Probabilities {

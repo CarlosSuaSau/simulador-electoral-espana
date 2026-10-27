@@ -155,3 +155,14 @@ El selector del mapa incluye solamente partidos que han obtenido al menos un dip
 El worker conserva el orden D’Hondt real de una elección representativa para cada distribución conjunta provincial observada. La vista selecciona el reparto conjunto más frecuente y coloca sus plazas en ese orden. La solidez se refiere al número de diputados del partido, mientras que las barras de una plaza disputada muestran P(partido gana ese puesto del orden de adjudicación). Son preguntas distintas y la interfaz lo indica. El panel de encuestas público muestra la tabla de datos sin los desplegables de edición o diagnósticos internos.
 
 Para GitHub Pages, ver `PUBLICAR.md`. Los archivos originales descargados y la copia histórica del workspace se conservan localmente, fuera del repositorio; la aplicación y las pruebas utilizan los datos normalizados incluidos en `src/data` y la cartografía de `public/data`.
+
+
+## Actualización del 27 de octubre de 2026
+
+Se sustituyen cinco encuestas: Sigma Dos (26/10), IMOP (23/10), SocioMétrica (25/10, texto actualizado 26/10), NC Report (26/10) y 40dB. flash (09/10). GAD3, DYM e InvyMark conservan su última publicación electoral verificable. Las anteriores quedan fuera del catálogo activo y se archivan en `data/archive/superseded-polls/`.
+
+`ballotShares` conserva las estimaciones publicadas de candidaturas finales (Frente Amplio y Front Valencià) separadas de los orígenes de voto. Se ponderan por instituto y fecha de campo/publicación. Tras el reparto de los orígenes y los experimentos de trasvase, un ajuste proporcional respeta sus márgenes nacionales y los totales provinciales; los restantes partidos conservan sus proporciones nacionales dentro de las provincias afectadas. Las provincias sin esas candidaturas no se ajustan. La ausencia de desglose no equivale a cero. Los totales finales pueden diferir de los objetivos de origen previos a este ajuste.
+
+Monte Carlo propaga el desacuerdo entre los institutos, el error histórico compartido y la incertidumbre nacional de las nuevas candidaturas. La corrección manual de 2023 sigue siendo independiente de la simulación nacional. Los movimientos publicados desde el recuerdo de voto de 2023 no se aplican otra vez al voto estimado de 2026. No se ha verificado una tabla que identifique los flujos NC/Primero Canarias: se mantiene el supuesto editable 60/40, sin presentarlo como observado.
+
+Fuentes, discrepancias y porcentajes de transferencias históricas comprobados: `data/research/poll-update-20261027.json`. Los escenarios anteriores reciben los nuevos datos mediante la revisión 7, manteniendo los trasvases y la selección de institutos del usuario.

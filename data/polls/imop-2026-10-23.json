@@ -1,0 +1,21 @@
+{
+  "id": "imop-2026-10-23",
+  "institute": "IMOP Insights",
+  "publisher": "El Confidencial",
+  "start": "2026-10-13",
+  "end": "2026-10-16",
+  "published": "2026-10-23",
+  "sample": 1000,
+  "source": "https://www.imop.es/encuesta-pre-electoral-el-confidencial-ola-2/",
+  "originalSource": "https://www.imop.es/encuesta-pre-electoral-el-confidencial-ola-2/",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 28.5,
+    "PSOE": 27.1,
+    "VOX": 20
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Ola 2, fuente del instituto. Solo porcentajes verificados en la publicación accesible. No se convierten escaños en porcentajes ni se usa el 8,9 % de recopiladores sin comprobar la tabla original."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "sigma-dos-2026-10-26",
+  "institute": "Sigma Dos",
+  "publisher": "El Mundo",
+  "start": "2026-10-08",
+  "end": "2026-10-22",
+  "published": "2026-10-26",
+  "sample": 3122,
+  "source": "https://www.sigmados.com/noticia?id=6KFRJttWfJrtP8C5",
+  "originalSource": "https://www.sigmados.com/noticia?id=6KFRJttWfJrtP8C5",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 30.6,
+    "PSOE": 26.1,
+    "VOX": 19.9,
+    "PODEMOS": 2.8,
+    "ERC": 2.5,
+    "BILDU": 1.2,
+    "JUNTS": 1.2,
+    "AA": 1,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CC": 0.4
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Fuente original: Frente Amplio 7,4 % y Compromís 0,8 % se miden por separado. El 8,2 % de algunas recopilaciones es su suma, no otra candidatura Sumar. CC conserva su categoría publicada; no identifica el reparto NC/Primero Canarias.",
+  "ballotShares": {
+    "FA": 7.4,
+    "COMPROMIS": 0.8
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sociometrica-2026-10-25",
+  "institute": "SocioMétrica",
+  "publisher": "El Español",
+  "start": "2026-09-01",
+  "end": null,
+  "published": "2026-10-25",
+  "sample": 3223,
+  "source": "https://www.elespanol.com/espana/politica/20261025/izquierda-no-remonta-sanchez-gana-escanos-costa-frente-podemos-sondeo-noche/1003744434105_0.html",
+  "originalSource": "https://www.elespanol.com/espana/politica/20261025/izquierda-no-remonta-sanchez-gana-escanos-costa-frente-podemos-sondeo-noche/1003744434105_0.html",
+  "verification": "primary",
+  "denominator": "valid",
+  "shares": {
+    "PP": 32,
+    "PSOE": 27,
+    "VOX": 18.6,
+    "JUNTS": 1.7,
+    "SALF": 2.4
+  },
+  "enabled": true,
+  "weight": 1,
+  "note": "Texto original actualizado el 26 de octubre: PP 32 % sin UPN; Frente Amplio 4,5 %; Front Valencià 0,9 %. Difiere de recopiladores (PP 32,4 %, FA 4,9 % o bloque 6,1 %). Campo acumulado desde septiembre, sin fecha final comprobada. ERC con Podemos 2,6 % no se interpreta como ERC aislada para evitar doble trasvase.",
+  "ballotShares": {
+    "FA": 4.5,
+    "COMPROMIS": 0.9
+  }
+}

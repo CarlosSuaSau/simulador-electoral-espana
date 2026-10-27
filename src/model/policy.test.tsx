@@ -44,7 +44,7 @@ describe('encuestas y acuerdos cerrados',()=>{
     expect(migrated.candidates.find(c=>c.id==='UPC')?.status).toBe('closed');
   });
   it('respeta las papeletas sucesoras y permite variar su retención sin duplicar electores',()=>{
-    const c=defaultConfig();c.routes=[];const a=project(c).provinces.find(p=>p.code==='35')!;
+    const c=defaultConfig();c.polls=c.polls.map(p=>({...p,ballotShares:undefined}));c.routes=[];const a=project(c).provinces.find(p=>p.code==='35')!;
     expect(a.votes.SUMAR).toBe(0);expect(a.votes.PODEMOS).toBe(0);expect(a.votes.NC).toBe(0);expect(a.votes.CC).toBe(0);
     expect(a.votes.UPC).toBe(a.sourceVotes.SUMAR+a.sourceVotes.PODEMOS+a.sourceVotes.NC);
     c.routes=[{id:'r',province:'35',origin:'NC',destination:'PC_CC',percent:30,uncertainty:0}];
